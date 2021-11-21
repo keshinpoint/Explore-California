@@ -3,6 +3,4 @@ LABEL maintainer="Keshav V <kesavvasudevan@gmail.com>"
 
 
 COPY ./website  /website
-COPY ./website /usr/share/nginx/html
-
-EXPOSE 8080
+COPY ./website.conf /etc/nginx/nginx.conf
